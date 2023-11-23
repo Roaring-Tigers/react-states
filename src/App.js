@@ -1,6 +1,7 @@
 import Basics from "./Components/Basics";
 import CounterApp from "./Components/CounterApp";
 import Objects from "./Components/Objects";
+import FormBasics from "./Components/FormBasics";
 
  const App = () => {
 
@@ -9,7 +10,8 @@ import Objects from "./Components/Objects";
         <div>
             {/* <Basics /> */}
             {/* <CounterApp /> */}
-            <Objects />
+            {/* <Objects /> */}
+            <FormBasics />
         </div>
     )
 }

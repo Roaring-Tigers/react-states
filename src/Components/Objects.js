@@ -13,7 +13,7 @@ import {useState} from 'react';
             // let newCount = {...count}
             // newCount.gold = newCount.gold + 1 
             // setCount(newCount)
-            setCount({...count, gold:count.gold+1})
+            setCount({...count, "gold":count.gold+1})
        }
     
      
@@ -22,9 +22,9 @@ import {useState} from 'react';
     return(
         <div>
              <h1> Gold: {count.gold} ,  Silver: {count.silver}, Bronze: {count.bronze} </h1>
-             <button > IncreaseGold </button>
-             <button > IncreaseSilver </button>
-             <button > IncreaseBronze </button>
+             <button onClick={increaseGold}> IncreaseGold </button>
+             <button onClick={()=>setCount({...count, silver:count.silver+1})}> IncreaseSilver </button>
+             <button onClick={()=>setCount({...count, bronze:count.bronze+1})}> IncreaseBronze </button>
 
              
         </div>
