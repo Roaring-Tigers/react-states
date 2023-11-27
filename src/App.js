@@ -5,6 +5,7 @@ import FormBasics from "./Components/FormBasics";
 import FormBasics2 from "./Components/FormBasics2";
 import FruitsArray from "./Components/FruitsArray";
 import LazyInitilization from "./Components/LazyInitilization";
+import Async from "./Components/Async";
 
  const App = () => {
 
@@ -17,7 +18,8 @@ import LazyInitilization from "./Components/LazyInitilization";
             {/* <FormBasics /> */}
             {/* <FormBasics2 /> */}
             {/* <FruitsArray /> */}
-            <LazyInitilization />
+            {/* <LazyInitilization /> */}
+            <Async />
 
 
         </div>
